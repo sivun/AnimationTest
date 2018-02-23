@@ -1,8 +1,7 @@
 package com.demo.animationtest.activity;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
@@ -15,14 +14,14 @@ import com.demo.animationtest.R;
  * Created by shixiaoming on 17/1/3.
  */
 
-public class TestProgressbarActivity extends AppCompatActivity {
+public class TestProgressbarActivity extends Activity {
     private ProgressBar imageView;
     private TextView textView;
     private Button playBtn;
     private boolean start = false;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.progress_test);
 

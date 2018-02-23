@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="loading_anim">
+    <string-array name="loading_anim_res">
         <item>@drawable/img0</item>
         <item>@drawable/img1</item>
         <item>@drawable/img2</item>
@@ -27,4 +27,31 @@
         <item>@drawable/img23</item>
         <item>@drawable/img24</item>
     </string-array>
+    <integer-array name="loading_anim_duration">
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+    </integer-array>
 </resources>
