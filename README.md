@@ -1,5 +1,5 @@
 # Android帧动画优化
-## Useage
+## 使用
 
     /**
      * 将帧动画资源id以字符串数组形式写到values/test_anima.xml中,
@@ -7,9 +7,10 @@
      * 两者个数不同时，则用少的一个
      */
 
-     FramesSequenceAnimation  animation = FramesSequenceAnimation.createAnima(imageView,
+
+FramesSequenceAnimation  animation = FramesSequenceAnimation.createAnima(imageView,
                     R.array.loading_anim_res, R.array.loading_anim_duration, true);
-    animation.start();//动画开始    
+    animation.start();//动画开始
     animation.stop();//动画结束
 
 ## 未来优化方向
